@@ -27,7 +27,7 @@ const client = new Client({
 client.once(Events.ClientReady, async (c) => {
     console.log(`Logged in as ${c.user.tag}`);
 });
-console.log("jweqioweqeqww");
+console.log("test");
 
 const slashCommands = new Collection<string, SlashCommand>()
 slashCommands.set(testCommand.command.name, testCommand)
